@@ -1,20 +1,20 @@
-How to run everything:
+## How to run everything:
 1) Open Developer Command Prompt for VS 2022.
 2) Run cd "path to the project directory" to move to the proper directory
 3) Run nmake all to execute everything. It will automatically run BSTtest and replace
 4) Run nmake clean to clean project
 
-Used toolchain:
+## Used toolchain:
 	Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
 	Microsoft (R) Incremental Linker Version 14.34.31937.0
 
-BSTtest.exe:
+## BSTtest.exe:
 	test all BST methods and output results to the console
 
-replace.exe .c:
+## replace.exe:
 	replace defined constants in .c file(passed as first argument) with their values and write them in .o file
 
-BST Library:
+## BST Library:
 	BST::BST(): Constructor of the BST class that initializes the root to nullptr.
 
 	BST::BST(const BST& other): Copy constructor that creates a deep copy of another BST object.
